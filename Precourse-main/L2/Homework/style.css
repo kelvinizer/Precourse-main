@@ -1,0 +1,62 @@
+body {
+    background: url(https://c1.wallpaperflare.com/preview/522/1015/616/wooden-background-wooden-oak-texture.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+.divClass {
+    text-align: center;
+    padding: 180px 0px;
+}
+
+.divClass h1 {
+    color: crimson;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+img {
+    width: 400px;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: crimson;
+    padding: 50px;
+    border: 2px solid yellow;
+}
